@@ -6,8 +6,9 @@ When you go to a restaurant that doesn't take reservations, you have to wait in 
 for a table. Most restaturants will giv eyou a buzzer which will signal you when your table is ready.
 So, this class basically manages a queue of buzzers with the given member functions.
 The ServiceQueue.h file has the class implementation
-There is a Driver file to compile the program
-to compile type: g++ -std=c++11 Driver.cpp -Drive
+There is a Driver file to compile the program.
+
+To compile type: g++ -std=c++11 Driver.cpp -Drive
 
 Member functions
 
