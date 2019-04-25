@@ -4,7 +4,12 @@ Data Structures - Project 2
 For this project, I had to implement a Service Queue class.
 When you go to a restaurant that doesn't take reservations, you have to wait in line
 for a table. Most restaturants will giv eyou a buzzer which will signal you when your table is ready.
-So, this class basically manages a queue of buzzers with these given member functions.
+So, this class basically manages a queue of buzzers with the given member functions.
+The ServiceQueue.h file has the class implementation
+There is a Driver file to compile the program
+to compile type: g++ -std=c++11 Driver.cpp -Drive
+
+Member functions
 
 - give_buzzer: 
   this is the enqueue operation (a new customer is getting in line).
