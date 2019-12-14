@@ -35,7 +35,7 @@ public:
  * 
  * RUNTIME : O(1)
  *
- * TODO */
+ * */
 ServiceQueue() {
 	head = nullptr;
 	last = nullptr;
@@ -54,7 +54,7 @@ ServiceQueue() {
 *
 *	[See discussion of "re-using buzzers" below]
 *
-* TODO */
+*  */
 ~ServiceQueue() {
 	Node *p, *pnxt;
 	p = head;
@@ -140,10 +140,6 @@ int  length() {
 *			(in some order).
 *
 *		- The next buzzer-ID (from the basement) is N.
-*
-*    In other words, you can always get more buzzers (from
-*    the basement or something), but you don't fetch an
-*    additional buzzer unless you have to (i.e., no reusable buzzers).
 *
 *
 * RUNTIME :  O(1)  ON AVERAGE or "AMORTIZED"  
