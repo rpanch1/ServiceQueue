@@ -1,5 +1,4 @@
 # ServiceQueue
-Data Structures - Project 2
 
 For this project, I had to implement a Service Queue class.
 When you go to a restaurant that doesn't take reservations, you have to wait in line
